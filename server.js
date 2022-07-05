@@ -9,9 +9,10 @@ const app = express();
 
 app.set('view engine', 'ejs')
 
-const PORT = 3000;
 
-const db = 'mongodb+srv://owin66:Pass321@nodejs.tyesk.mongodb.net/node-blog?retryWrites=true&w=majority'
+const PORT = 3000;
+'mongodb+srv://owin66:Pass321@nodejs.tyesk.mongodb.net/node-blog?retryWrites=true&w=majority'
+const db =
 
 mongoose
     .connect(db)
